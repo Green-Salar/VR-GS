@@ -8,7 +8,7 @@ SIGGRAPH 2023 had a paper "[**3D Gaussian Splatting for Real-Time Radiance Field
 that is really cool! Check out their website, source code repository, data sets and so on. I've decided to try to implement the realtime visualization part (i.e. the one that takes already-produced
 gaussian splat "model" file) in Unity.
 
-![Screenshot](/docs/Images/shotOverview.jpg?raw=true "Screenshot")
+ 
 
 Everything in this repository is based on that "OG" gaussian splatting paper. Towards end of 2023, there's a ton of
 [new gaussian splatting research](https://github.com/MrNeRF/awesome-3D-gaussian-splatting) coming out; _none_ of that is in this project.
@@ -35,7 +35,7 @@ and open `GSTestScene` scene in there.
 Note that the project requires DX12 or Vulkan on Windows, i.e. **DX11 will not work**. This is **not tested at all on mobile/web**, and probably
 does not work there.
 
-<img align="right" src="docs/Images/shotAssetCreator.png" width="250px">
+ 
 
 Next up, **create some GaussianSplat assets**: open `Tools -> Gaussian Splats -> Create GaussianSplatAsset` menu within Unity.
 In the dialog, point `Input PLY/SPZ File` to your Gaussian Splat file. Currently two
